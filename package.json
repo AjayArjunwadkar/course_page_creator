@@ -1,5 +1,5 @@
 {
-  "name": "with-rbx-bulma-pro",
+  "name": "letsupgrade_course",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -8,10 +8,12 @@
   "dependencies": {
     "bulma-pro": "^0.1.7",
     "framer-motion": "^3.3.0-beta.22",
+    "gray-matter": "^4.0.2",
     "next": "^9.1.8-canary.11",
     "rbx": "^2.2.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "reveal.js": "^4.1.0"
   },
   "license": "MIT"
 }

@@ -1,0 +1,37 @@
+<form action="https://api.letsupgrade.in/signup_new_test" method="POST">
+                      <div style="width: auto;">
+                        <section>
+                          <b-field>
+                            <b-input size="is-medium is-small-mobile" type="text" name="name" id="name"
+                              placeholder="Your Name" required>
+                          </b-field>
+
+                          <b-field>
+                            <b-input size="is-medium" type="email" name="email" id="email" placeholder="Email Address"
+                              required>
+                          </b-field>
+                          <b-field>
+                            <b-input size="is-medium" type="text" name="mobile" id="mobile" placeholder="Contact Number"
+                              required>
+                          </b-field>
+
+                          <input type="hidden" name="list_id" id="list_id" value="RikCxLZYJzy5IurPxK7637lA">
+                          <input type="hidden" name="location" id="location" value="India">
+                          <input type="hidden" name="program" id="program" value="LPYTEFEB121">
+                          <input id="grade" type="hidden" name="grade" value="Batch 10">
+
+                          <b-input type="hidden" id="ref" name="referredBy" :value="formRefCode">
+                          </b-input>
+
+                          <b-field>
+                            <button class="button is-black is-medium is-fullwidth">
+                              <strong>
+                                Start Learning
+                              </strong>
+                            </button>
+                          </b-field>
+                          <span class="is-size-7 center">By filling in the details in the form above, you agree to
+                            receive communication from LetsUpgrade</span>
+                        </section>
+                      </div>
+                    </form>

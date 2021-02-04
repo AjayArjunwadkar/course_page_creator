@@ -13,6 +13,7 @@ import Layout from '../components/Layout'
 const ContactPage = () => (
   <Layout>
     <Section>
+      <form action="https://api.letsupgrade.in/signup_new_test" method="POST">
       <Title as="h2">Contact Form Example</Title>
       <Field>
         <Label>Name</Label>
@@ -43,6 +44,7 @@ const ContactPage = () => (
           Submit
         </Button>
       </Button.Group>
+      </form>
     </Section>
   </Layout>
 )
